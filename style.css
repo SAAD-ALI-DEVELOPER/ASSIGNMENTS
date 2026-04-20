@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:20px;
+    padding: 15px 30px;
+    
+}
+
+.nav-container ul{
+    display: flex;
+    gap: 50px;
+    
+    
+}
+
+.nav-container ul li{
+    list-style: none;
+   
+    
+}
+
+.nav-container ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-container ul li a:hover{
+    color:black;
+}
+
+.logo span{
+    color:darkblue;
+   text-decoration:none;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+   
+
+   
+  
+}
+
+.logo img{
+    height: 50px;
+    width: auto;
+    align-items: center;
+}
+
+
+
+.btn button{
+    padding: 8px;
+    background-color:darkblue;
+    color: white;
+    border:none;
+    align-items: center;
+   
+}
+
+/* hero section */
+
+.hero{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 200px;
+ 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content,
+.image {
+  width: 50%;
+}
+
+/* .hero-img img{
+    float: right;
+    display: inline-block;
+} */
+
+
+
+.txt{
+    display: inline-block;
+}
+
+.txt h1{
+    margin-top: 70px;
+    margin-left: 130px;
+    font-size: 50px;
+}
+
+.txt h2 span {
+  color:darkblue;
+}
+
+.txt h2 {
+    margin-top: 20px;
+    margin-left: 125px;
+    font-size: 47px;
+}
+
+.txt p{
+    font-size: 20px;
+    margin-left: 130px;
+    color: grey;
+}
+
+#p1{
+    margin-top: 18px;
+}
+
+#p2{
+    margin-top: 10px;
+}
+
+.hero-button button{
+    padding: 8px;
+    background-color:darkblue;
+    color: white;
+    border:none;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 40px;
+    width:120px;
+    height:40px;
+   
+}
+
+
+
+/* trust section */
+
+
+
+.text h1 span{
+    color: darkblue;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* .text h1{
+    margin-top: 170px;
+    margin-left: 450px;
+ 
+} */
+
+.images-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.images-container img{
+    align-items: center;
+    width:250px;
+    height:120px;
+}
+
+/* 
+services section */
+
+.details-container{
+    display: flex;
+    justify-content:flex-start;
+}
+
+
+.main h1{
+    color: orange;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.main p{
+    color: grey;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#psecondary{
+    margin-top: 5px;
+}
+
+
+.details-container{
+    display: flex;
+    gap: 10px;
+}
+
+.seo-section img{
+    width: 200px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.seo-section h1{
+    margin-left:180px;
+    position: relative;
+    top: -25px;
+}
+
+.p-text {
+  width: 320px;
+  text-align: center;
+  margin-left: 130px;
+  line-height: 1.6;
+  color: grey;
+
+}
+
+.competitor-section img{
+    width: 200px;
+    margin-top: 20px;
+    margin-left:100px;
+
+}
+
+.competitor-section h1{
+    margin-left:70px;
+    position: relative;
+    top: -25px;
+}
+
+.c-text {
+  width: 320px;
+  text-align: center;
+  margin-left: 50px;
+  line-height: 1.6;
+  color: grey;
+
+}
+
+.social-section img{
+    width: 180px;
+    margin-top: 10px;
+    margin-left:130px;
+
+}
+
+.social-section h1{
+    margin-left:110px;
+    position: relative;
+    top: -20px;
+}
+
+.s-text {
+  width: 320px;
+  text-align: center;
+  margin-left: 50px;
+  line-height: 1.6;
+  color: grey;
+
+}
+
+/* about-section */
+
+.abimg-container {
+  display: flex;
+  gap: 50px; /* space between image & text */
+}
+
+.abimg-container img {
+  width: 600px; /* adjust as needed */
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.abimg-container h1{
+    color: orange;
+    margin-top: 100px;
+}
+
+.abimg-container p{
+    margin-top: 155px;
+  margin-left: -180px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.abimg-container h2{
+    margin-top: 210px;
+    margin-left: -375px;
+    font-size: 40px;
+}
+
+.abimg-container span{
+    color: gray;
+    margin-top: 280px;
+    margin-left: -200px;
+    max-width:400px;
+}
+
+.about button{
+    padding: 8px;
+    background-color:darkblue;
+    color: white;
+    border:none;
+    margin-left:760px;
+    width:120px;
+    height:40px;
+    position: relative;
+    top: -60px;
+   
+}
+
+
+
+/* code for responsive */
+
+@media screen and (max-width: 1000px){
+
+    .hero{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images-container{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+   
+
+
+
+  
+
+}
+
+
